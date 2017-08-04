@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 ///////////////////////////////////// 
 /* Problem 1 (this is your demo that we'll solve in class)
@@ -23,14 +23,14 @@ a new branch for your work on the next question!
 */
 
 // Write your code here
-function sum(a,b){ //eslint-disable-line
-    var total = a + b;
-    return [ total, 'The sum of ' + a + ' and ' + b +' is ' + total + '.' ];
-    // returns array first element = sum, second = string like example
-}
+// function sum(a,b){ //eslint-disable-line
+//     var total = a + b;
+//     return [ total, 'The sum of ' + a + ' and ' + b +' is ' + total + '.' ];
+//     // returns array first element = sum, second = string like example
+// }
 
-// Here is the test for sum(); uncomment it to run it
-testSum(4, 7);
+// // Here is the test for sum(); uncomment it to run it
+// testSum(4, 7);
 
 
 
@@ -56,8 +56,11 @@ create a new branch for your work on the next question!
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
+    var sum = a * b;
+    return [ sum, 'The product of ' + a + ' and ' + b + ' is ' + sum + '.' ];
+    console.log = sum 
+};
 
-}
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);

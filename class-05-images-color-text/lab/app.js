@@ -20,12 +20,11 @@ Once you get the test passing, do an a-c-p cycle and synchronize the
 code between GitHub and your laptop. Don't forget to create 
 a new branch for your work on the next question!
 
-*/
-
-// Write your code here
-// function sum(a,b){ //eslint-disable-line
-//     var total = a + b;
-//     return [ total, 'The sum of ' + a + ' and ' + b +' is ' + total + '.' ];
+// // Write your code here
+// // function sum(a,b){ //eslint-disable-line
+// //     var total = a + b;
+//      return [ total, 'The sum of ' + a + ' and ' + b +' is ' + total + '.' ];
+//  }
 //     // returns array first element = sum, second = string like example
 // }
 
@@ -56,11 +55,15 @@ create a new branch for your work on the next question!
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-    var sum = a * b;
-    return [ sum, 'The product of ' + a + ' and ' + b + ' is ' + sum + '.' ];
-    console.log = sum 
+    var product = a * b;
+    return [ product, 'The product of ' + a + ' and ' + b + ' is ' + product + '.' ];
+
 };
 
+function sum(a,b){ //eslint-disable-line
+var total = a + b;
+return [ total, 'The sum of ' + a + ' and ' + b +' is ' + total + '.' ];
+ }
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
@@ -92,11 +95,21 @@ function and see if the test passes.
 Once you get the test passing, do an a-c-p cycle and synchronize the 
 code between GitHub and your laptop. Don't forget to create a 
 new branch for your work on the next question!
-
+function sum(a,b){ //eslint-disable-line
+// //     var total = a + b;
+//      return [ total, 'The sum of ' + a + ' and ' + b +' is ' + total + '.' ];
+//  }
 */
 
 // Write your code here
 function sumAndMultiply(a,b,c){ //eslint-disable-line
+var totalAB = sum (a, b) [0]
+var totalABC = sum (totalAB, c) [0]
+var productAB = multiply (a, b) [0]
+var productABC = multiply (productAB, c) [0]
+
+return [totalABC, productABC,  a + ' and ' + b + ' and ' + c + ' sum to ' + totalABC + '.',
+ 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + productABC + '.'];
 
 }
 
@@ -128,11 +141,11 @@ new branch for your work on the next question!
 */
 
 // Write your code here
-var testArray = [2,3,4]; //eslint-disable-line
+// var testArray = [2,3,4]; //eslint-disable-line
 
-function sumArray(testArray){ //eslint-disable-line
+// function sumArray(testArray){ //eslint-disable-line
 
-}
+// }
 
 // Here is the test for sumArray(); uncomment it to run it
 // testSumArray(testArray);
@@ -163,9 +176,9 @@ new branch for your work on the next question!
 */
 
 // Write your code here
-function multiplyArray(testArray){ //eslint-disable-line
+// function multiplyArray(testArray){ //eslint-disable-line
 
-}
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(2,3,4);
